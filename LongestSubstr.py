@@ -12,3 +12,9 @@ for letter in string:
     max_length = max(max_length, len(seen_character))   
     # abc - bca - cab - abc - cb
 print(max_length)   
+
+'''
+If the str has repeated character , remove it from the existing string and proceed. 
+Update the length of the new str 
+Return the max len of the str 
+'''
